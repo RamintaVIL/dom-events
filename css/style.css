@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* kadangi turiu tik viena elementa, tai flex-direction nenaudojame, nes nieko nereikia pastatyti stulpeliu */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* norint, kad elementas butu per viduri, naudojame height */
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 280px;
+    background-color: #005490;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+hr {
+    width: 90%;
+}
+.count {
+    font-size: 2rem;
+    border: 2px double white;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}

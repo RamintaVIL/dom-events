@@ -1,0 +1,44 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    padding: 2rem;
+}
+.scoreBoardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 500px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.teamsName,
+.teamsScore {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.teamsName {
+    border-bottom: 0.5px solid lightgray;
+}
+.teamsScore {
+    font-size: 4rem;
+}
+.buttonContainer {
+   display: flex;
+   justify-content: space-evenly;
+  
+   
+}
+.buttonContainer button {
+    width: 100px; 
+    cursor: pointer;
+}
+.buttonContainer button:hover {
+    background-color: #ddd;
+}
